@@ -1,4 +1,4 @@
-This is a Python script to download DeependResearch's ransomware feed every 24 hours into a local file .CSV. 
+This is a Python script to download DeependResearch's ransomware feed every 24 hours into a local .CSV file.
 
 
 

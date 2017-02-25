@@ -13,7 +13,7 @@ def main(sc):
         if line.startswith('#') or '.' not in line:
             continue
         outfile += '%s,DeepEndResearch Suspected Ransomware Payment Site\n' % line
-    with open('ransomware_payment_site.csv', 'w') as fh:
+    with open('ransomware_payment_site.csv', 'a+') as fh:
         fh.write(outfile)
     s.enter(86400, 1, main, (sc,)) 
     s.run()
